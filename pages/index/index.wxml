@@ -1,0 +1,3 @@
+	<view >
+    <formitem title="姓名：" value="{{value}}"  justy="false" data-index="{{index}}" bindclick="search" ifsearch="true"></formitem>
+  </view>

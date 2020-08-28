@@ -1,0 +1,19 @@
+<!-- <slot name="before"></slot> -->
+<view class="form-item" >
+	<view style="" class="{{justy=='true'?'contentjusty':'contentjusty1'}}">{{title}}<text style="color:red" wx:if="{{require =='true'}}">*</text>
+	</view>
+	<view style="width:70%;" >
+		<input bindinput="_serach" value="{{value}}" class="input" placeholder="请输入" />
+	</view>
+	<!-- 下拉选择历史记录 -->
+	<view class="searchview" wx:if="{{arry.length>0}}">
+		<scroll-view style="height:190px;" scroll-y>
+			<view wx:for="{{arry}}" wx:key="index" class="searchviewitem" bindtap="_click" data-index="{{index}}">
+				<view>{{item}}</view>
+			</view>
+		</scroll-view>
+
+	</view>
+	<!-- 下拉选择历史记录 -->
+</view>
+<!-- <slot name="after"></slot> -->

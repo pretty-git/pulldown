@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "formitem":"../../component/formItem/formItem"
+  }
+}

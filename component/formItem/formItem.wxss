@@ -1,0 +1,88 @@
+
+.form-item {
+  display: flex;
+  padding-left:15px;
+  border-bottom: 1px solid #eee;
+  position: relative;
+  background-color: #fff;
+
+  /* width: 100%; */
+}
+.input {
+  height: 50px;
+line-height: 50px;
+padding-right: 10px;
+text-align: right;
+margin: auto 0;
+
+
+}
+.contentjusty {
+  text-align:justify;text-align-last:justify;
+  width:30%;
+  margin:auto 0;
+}
+.contentjusty1 {
+  width:30%;
+  margin:auto 0;
+}
+.form-item-back {
+  background-color: #fff;
+  width: 95%;
+  margin: auto;
+  border-radius: 5px;
+}
+.form-item-backs {
+  background-color: #fff;
+  width: 90%;
+  margin: 20px auto;
+  border-radius: 5px;
+}
+/* 扫码icon */
+.scanicon {
+  width: 30px;
+  height: 30px;
+  display: none;
+}
+.scanicons {
+  width: 30px;
+  height: 30px;
+  /* display: none; */
+}
+.upload {
+  width: 200px;
+  height: 50px;
+  margin: auto;
+}
+.upload image{
+  width: 50px;
+  height: 50px;
+}
+.rightitem {
+  text-align: right;
+  width: 70%;
+  margin:auto;
+  overflow: hidden; /*超出部分隐藏*/
+  text-overflow: ellipsis; /* 超出部分显示省略号 */
+  white-space: nowrap; /*规定段落中的文本不进行换行 */
+}
+.searchviewitem {
+  border: 1px solid #e8e8e8;
+margin: 4px 10px;
+background-color: #fff;
+padding: 5px 10px;
+overflow: hidden; /*超出部分隐藏*/
+  text-overflow: ellipsis; /* 超出部分显示省略号 */
+  white-space: nowrap; /*规定段落中的文本不进行换行 */
+border-radius: 5px;
+}
+.searchview {
+  position: absolute;
+  top: 55px;
+  width: 93%;
+  background-color: #eee;
+  color: #000;
+  box-shadow: 1px 1px 3px 1px #aaa;
+  z-index: 9999;
+  border-radius: 5px;
+}
