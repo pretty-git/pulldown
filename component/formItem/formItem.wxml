@@ -1,7 +1,6 @@
 <!-- <slot name="before"></slot> -->
 <view class="form-item" >
-	<view style="" class="{{justy=='true'?'contentjusty':'contentjusty1'}}">{{title}}<text style="color:red" wx:if="{{require =='true'}}">*</text>
-	</view>
+	<view class="contentjusty">{{title}}</view>
 	<view style="width:70%;" >
 		<input bindinput="_serach" value="{{value}}" class="input" placeholder="请输入" />
 	</view>
@@ -12,7 +11,6 @@
 				<view>{{item}}</view>
 			</view>
 		</scroll-view>
-
 	</view>
 	<!-- 下拉选择历史记录 -->
 </view>
